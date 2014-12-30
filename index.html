@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta encoding="utf-8" />
+  <title>
+    Placement Algorithms Visualization
+  </title>
+  <script type="text/javascript" language="javascript" src="./main.js"></script>
+</head>
+
+<body>
+<div id="header">
+  <input type="number" id="txtNum" min="0" />
+  <input type="submit" name="init" id="init" value="Initial Memory (kilobytes)" onclick="setmem()" />
+  <input type="radio" name="alg" id="first" /><label for="first">First Fit</label>
+  <input type="radio" name="alg" id="best" /><label for="best">Best Fit</label>
+  <input type="radio" name="alg" id="wrost" /><label for="wrost">Worst Fit</label>
+  <input type="radio" name="alg" id="next" /><label for="next">Next Fit</label>
+</div>
+
+<div id="convas">
+</div>
+</body>
+
+</html>
